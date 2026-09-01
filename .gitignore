@@ -1,13 +1,24 @@
-node_modules/
-dist/
-build/
-.next/
+# Python & Environments
 .venv/
 venv/
 env/
-ENV/
-.env
-.vscode/
-.idea/
-*.pyc
 __pycache__/
+*.pyc
+
+# Data & NumPy arrays (This stops the 10k files)
+*.npy
+*.npz
+*.h5
+*.pkl
+*.pt
+*.pth
+*.onnx
+
+# Common Dataset folders (add your specific data folder names below)
+data/
+datasets/
+dataset/
+raw_data/
+processed_data/
+audio/
+wavs/
